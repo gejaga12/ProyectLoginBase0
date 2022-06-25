@@ -20,8 +20,12 @@
 
 <body>
     <header>
-        <div class="encabezado">
-            <h1>Proyecto Login</h1>
+
+        <div class="topnav">
+            <a href="new.html">New</a>
+            <a href="login.html">Login</a>
+            <a href="forgotpass.html">ForgotPassword</a>
+            <a href="#about" class="split">Pokedex</a>
         </div>
     </header>
     <div class="modal-dialog text-center">
@@ -32,16 +36,17 @@
                 </div>
                 <form class="col-12">
                     <div class="form-group">
-                        <input id="user-group" class="form-control" type="text" placeholder="Ingrese Usuario" />
+                        <input id="user-group" class="form-control" type="mail" placeholder="Ingrese Correo Electronico" />
                     </div>
                     <div class="form-group">
                         <input id="email-group" class="form-control" type="text" placeholder="Nueva contraseña" />
                     </div>
                     <div class="form-group">
-                        <input id="contrasena-group" class="form-control" type="password" placeholder="Repita contraseña" />
+                        <input id="contrasena-group" class="form-control" type="password"
+                            placeholder="Repita contraseña" />
                     </div>
-                  
-                    <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"> </i>  Recuperar 
+
+                    <button type="button" class="btn btn-primary" onclick="recuperado()"><i class="fas fa-sign-in-alt"> </i> Recuperar
                     </button>
 
                 </form>
@@ -51,13 +56,13 @@
         </div>
 
     </div>
-
+    <footer>
+        <div class="footer">
+            <h7>Ⓒ 2022 - Proyecto Login. Desarrollo web by New Team Delevopers.</h7>
+        </div>
+    </footer>
 </body>
 
-<footer>
-    <div class="footer">
-        <h7>Ⓒ 2022 - Proyecto Login. Todos los derechos reservados.</h7>
-    </div>
-</footer>
+<script src="funciones.js"></script>
 
 </html>

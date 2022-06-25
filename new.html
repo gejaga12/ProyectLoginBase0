@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto Login</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
@@ -20,8 +21,11 @@
 
 <body>
     <header>
-        <div class="encabezado">
-            <h1>Proyecto Login</h1>
+        <div class="topnav">
+            <a href="new.html">New</a>
+            <a href="login.html">Login</a>
+            <a href="forgotpass.html">ForgotPassword</a>
+            <a href="#about" class="split">Pokedex</a>
         </div>
     </header>
     <div class="modal-dialog text-center">
@@ -35,7 +39,7 @@
                         <input id="user-group" class="form-control" type="text" placeholder="Nombre completo" />
                     </div>
                     <div class="form-group">
-                        <input id="email-group" class="form-control" type="text" placeholder="Correo elecronico" />
+                        <input id="email-group" class="form-control" type="email" placeholder="Correo elecronico" />
                     </div>
                     <div class="form-group">
                         <input id="contrasena-group" class="form-control" type="password" placeholder="Contraseña" />
@@ -46,7 +50,8 @@
                         <option value="encargado">Encargado</option>
                         <option value="operario">Operario</option>}
                     </select>
-                    <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i> Registrarse
+                    <button type="button" class="btn btn-primary " id="registrar" onclick="redireccionar()" ><i class="fas fa-sign-in-alt"></i>
+                        Registrarse
                     </button>
 
                 </form>
@@ -56,13 +61,13 @@
         </div>
 
     </div>
-
+    <footer>
+        <div class="footer">
+            <h7>Ⓒ 2022 - Proyecto Login. Desarrollo web by New Team Delevopers.</h7>
+        </div>
+    </footer>
 </body>
 
-<footer>
-    <div class="footer">
-        <h7>Ⓒ 2022 - Proyecto Login. Todos los derechos reservados.</h7>
-    </div>
-</footer>
+<script src="funciones.js"></script>
 
 </html>

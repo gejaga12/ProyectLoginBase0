@@ -1,31 +1,8 @@
-body {  
-  background: rgb(249,250,247);
-background: linear-gradient(90deg, rgba(249,250,247,1) 10%, rgba(253,255,69,1) 79%);
-}
-.topnav {
-  overflow: hidden;
-  background-color: #ffc107;
+body {
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 25px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}  
-
-.topnav a.split {
-  float: right;
-  background-color: #e95e00;
-  color: white;
-}
 .main-section {
   margin: 0 auto;
   margin-top: 25%;
@@ -33,7 +10,7 @@ background: linear-gradient(90deg, rgba(249,250,247,1) 10%, rgba(253,255,69,1) 7
 }
 
 .modal-content {
-  background-color: rgb(245 192 34);
+  background-color: rgb(197, 194, 194);
   opacity: 0.95;
   padding: 0 20px;
   box-shadow: 0px 0px 3px #848484;
@@ -67,11 +44,7 @@ button {
   margin: 5px 0 25px;
   margin-bottom: 1em;
 }
-.btn-primary {
-  color: #fff;
-  background-color: #e95e00;
-  border-color: #e95e00;
-}
+
 #roll {
   margin-bottom: 10px;
 }
@@ -89,7 +62,7 @@ button {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #ffc107;
+  background-color: black;
   text-align: center;
   color: white;
   padding-top: 1em;
