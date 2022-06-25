@@ -1,6 +1,10 @@
-body {  
-  background: rgb(249,250,247);
-background: linear-gradient(90deg, rgba(249,250,247,1) 10%, rgba(253,255,69,1) 79%);
+body {
+  background: rgb(249, 250, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(249, 250, 247, 1) 10%,
+    rgba(253, 255, 69, 1) 79%
+  );
 }
 .topnav {
   overflow: hidden;
@@ -19,7 +23,7 @@ background: linear-gradient(90deg, rgba(249,250,247,1) 10%, rgba(253,255,69,1) 7
 .topnav a:hover {
   background-color: #e95e00;
   color: black;
-}  
+}
 
 .topnav a.split {
   float: right;
